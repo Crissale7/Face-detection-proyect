@@ -1,0 +1,68 @@
+Face detection proyect alpha 1.0
+
+#funciones:  detección de ojos, estimación de pose, reconocimiento facial básico y detección en tiempo real con webcam.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Face detection proyect alpha 2.0
+
+#funciones nuevas: 
+
+#Reconocimiento facial para identificar a la persona detectada. Se puede entrenar un modelo de deep learning como una red neuronal convolucional.
+
+#Seguimiento facial (face tracking) para seguir el movimiento de un rostro en un video. Utilizando algoritmos como CAMShift de OpenCV.
+
+#Estimar la pose facial (yaw, pitch, roll) calculando la orientación relativa de la cara. Útil en aplicaciones de realidad aumentada.
+
+#Detección de emociones basada en las expresiones faciales como felicidad, tristeza, enojo, etc. Mediante entrenamiento de modelos de clasificación.
+
+#Estimación de edad y género a partir de las características faciales. Con modelos de deep learning entrenados.
+
+#Detección facial en tiempo real utilizando la cámara web para interacciones persona-computador.
+
+#Reconocimiento de gestos faciales como guiño, levantar cejas, inflar mejillas, entre otros. Entrenando modelos especializados.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para implementar la detección de rostros (face detection) en Python se necesitan los siguientes elementos:
+
+1. Una biblioteca de Computer Vision como OpenCV para procesamiento de imágenes y detección de objetos. OpenCV provee clasificadores entrenados para detectar rostros.
+
+2. Un clasificador de rostros pre-entrenado. OpenCV incluye algunos como el clasificador Haar Cascade para detección frontal de rostros.
+
+3. Cargar la imagen o video donde se quieren detectar rostros. OpenCV permite leer imágenes, streams de video, etc. 
+
+4. Pre-procesamiento de la imagen. Generalmente se convierte a escala de grises y se iguala el histograma de la imagen.
+
+5. Detectar rostros utilizando el clasificador entrenado. Se aplica el clasificador a regiones de interés en la imagen.
+
+6. Dibujar bounding boxes alrededor de las caras detectadas.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#Face detection proyect alpha 3.0
+
+Aquí algunas otras funciones para agregar al sistema de detección y análisis facial en Python:
+
+#- Reconocimiento facial para identificar personas específicas. Entrenando un modelo de reconocimiento facial basado en redes neuronales convolucionales.
+
+#- Seguimiento facial (face tracking) para seguir el movimiento de caras en video. Utilizando algún algoritmo como CAMShift o correlación de OpenCV.
+
+#- Detección de poses faciales (orientación en yaw, pitch, roll) a partir de landmarks faciales. Útil para aplicaciones de realidad aumentada o animación 3D.
+
+#- Detección de caras 3D a partir de información de profundidad de cámaras RGB-D.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Face detection proyect alpha 4.0
+nuevas funciones para agregar:(en proceso)
+- Reconocimiento óptico de caracteres (OCR) para leer textos labiales y lenguaje de señas.
+
+- Detección de objetos que intersecan con caras, como anteojos, barbijos, etc. Mediante modelos entrenados.
+
+- Segmentación semántica para separar y analizar partes específicas de la cara.
+
+
+Como se puede ver, hay un amplio abanico de posibilidades para expandir las capacidades de análisis y procesamiento avanzado de imágenes faciales.
+
+
